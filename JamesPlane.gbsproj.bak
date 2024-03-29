@@ -981,7 +981,38 @@
             "x": 211.74358974358995,
             "y": 292.5128205128205,
             "actors": [],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "a2033382-9fe0-4388-a613-f58b8a477030",
+                    "x": 13,
+                    "y": 4,
+                    "symbol": "trigger_21",
+                    "width": 1,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "It's all my stuff..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "88f364c3-3c13-4690-904f-638c87eec7dd"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "$self$",
+                                "emoteId": "3c63ecb4-369c-4fa5-ab2f-6d0c5c021ce2"
+                            },
+                            "id": "a49cb97b-ca85-44a8-a021-dd4142880acd"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -3558,134 +3589,6 @@
             "animSpeed": 15
         },
         {
-            "id": "a0377fd2-850d-4c51-a37c-af7a682c4d87",
-            "name": "playerPortrait",
-            "symbol": "sprite_playerportrait",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "playerPortrait.png",
-            "checksum": "4fa90252310536ebf1daa646a10896e84dd6fb41",
-            "width": 16,
-            "height": 16,
-            "states": [
-                {
-                    "id": "a01daf4b-9a9e-477e-b973-714061a16fd7",
-                    "name": "",
-                    "animationType": "fixed",
-                    "flipLeft": false,
-                    "animations": [
-                        {
-                            "id": "44b79f29-d7f1-4b1a-8c72-fbf3a07b3de1",
-                            "frames": [
-                                {
-                                    "id": "4bab3e3b-9f40-440b-9570-df61d9156d02",
-                                    "tiles": [
-                                        {
-                                            "id": "38b7e118-db3d-4368-b4bd-42bf2c8b583d",
-                                            "x": 0,
-                                            "y": 0,
-                                            "sliceX": 0,
-                                            "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
-                                            "objPalette": "OBP0",
-                                            "priority": false
-                                        },
-                                        {
-                                            "id": "391ec20b-55a1-4a0b-8382-18392aa456e5",
-                                            "x": 8,
-                                            "y": 0,
-                                            "sliceX": 8,
-                                            "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
-                                            "objPalette": "OBP0",
-                                            "priority": false
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "7d80797e-325b-4c44-8a9a-fda1270a107d",
-                            "frames": [
-                                {
-                                    "id": "bd77fe00-110d-44d5-8726-730336a377dd",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "70f28da8-eae5-47bd-a883-5bebba67156f",
-                            "frames": [
-                                {
-                                    "id": "d5dca590-1bbc-47bd-bc4a-70bce664a2a9",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "aa7b827c-a7a8-4004-96af-ba93c1df4134",
-                            "frames": [
-                                {
-                                    "id": "bc9713ed-5144-4f28-9a45-e572da3e7b2f",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "affa0f21-69ea-4c48-94c7-c105a9924b6d",
-                            "frames": [
-                                {
-                                    "id": "e4f57acb-ac55-4e59-8a1b-f887d7c2694c",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "993497cf-b4f0-4b01-a51f-5441363bec19",
-                            "frames": [
-                                {
-                                    "id": "c1fc029d-8351-4037-8228-482df39b81a1",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "601c9573-4876-4d05-a8d8-4554cd0a6cff",
-                            "frames": [
-                                {
-                                    "id": "720f0373-54cb-41a8-9013-d31df74b1414",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "78256d6a-8653-43f5-a305-91939f1febf2",
-                            "frames": [
-                                {
-                                    "id": "51056c16-e8bc-4e38-9175-e059b1513bbd",
-                                    "tiles": []
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "numTiles": 1,
-            "canvasWidth": 16,
-            "canvasHeight": 16,
-            "boundsX": 0,
-            "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
-            "animSpeed": 15
-        },
-        {
             "id": "e1d77c89-c941-468a-941f-eb8e56340d86",
             "name": "playerSaveLoad",
             "symbol": "sprite_playersaveload",
@@ -4992,12 +4895,28 @@
             "filename": "guy/question.png"
         },
         {
+            "id": "3c63ecb4-369c-4fa5-ab2f-6d0c5c021ce2",
+            "name": "guy/sad",
+            "symbol": "emote_guy_sad",
+            "width": 16,
+            "height": 16,
+            "filename": "guy/sad.png"
+        },
+        {
             "id": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
             "name": "guy/shock",
             "symbol": "emote_shock",
             "width": 16,
             "height": 16,
             "filename": "guy/shock.png"
+        },
+        {
+            "id": "1153db5b-70d5-40dd-830a-ca80d353158b",
+            "name": "guy/silly",
+            "symbol": "emote_guy_silly",
+            "width": 16,
+            "height": 16,
+            "filename": "guy/silly.png"
         },
         {
             "id": "2d4b251d-0241-40eb-98e1-e396b236772c",
