@@ -1,8 +1,8 @@
 {
     "name": "JamesPlane",
     "author": "encrypt",
-    "_version": "3.1.0",
-    "_release": "3",
+    "_version": "3.2.0",
+    "_release": "1",
     "scenes": [
         {
             "name": "Title Screen",
@@ -3513,6 +3513,16 @@
     ],
     "backgrounds": [
         {
+            "id": "a160cedb-1843-4113-96d0-a272080c1b1b",
+            "name": "endScreen",
+            "symbol": "bg_endscreen",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "endScreen.png"
+        },
+        {
             "id": "d5e5202a-8777-48b4-a4c6-761f714bb4a6",
             "name": "house_kitchen",
             "symbol": "bg_house_kitchen",
@@ -3553,7 +3563,18 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "outside1.png"
+            "filename": "outside1.png",
+            "tileColors": []
+        },
+        {
+            "id": "8f0e2f42-5cf6-497b-9c79-276588794297",
+            "name": "outside2",
+            "symbol": "bg_outside2",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "outside2.png"
         },
         {
             "id": "29d1333a-9dd7-4672-abe3-370c94ee40e7",
@@ -3607,7 +3628,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "saveLoadScreen.png"
+            "filename": "saveLoadScreen.png",
+            "tileColors": []
         },
         {
             "id": "0acef8dd-2e3b-43cc-9fd4-0355319a6aee",
@@ -4799,6 +4821,134 @@
                 }
             ],
             "numTiles": 5,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "d8718d7c-d929-4591-8d3e-a5191b9e362d",
+            "name": "dyingPerson",
+            "symbol": "sprite_dyingperson",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "dyingPerson.png",
+            "checksum": "6e5ba26f78dfc4e09318c7060bb370a0cbc81074",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "14b14d51-312d-4e20-9305-788b8b2a7f9c",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "f9c0fedc-c1de-40be-b2c5-828a9fbed77b",
+                            "frames": [
+                                {
+                                    "id": "a64256bb-95a2-4c9c-8249-4e3cd87428ce",
+                                    "tiles": [
+                                        {
+                                            "id": "5d93b790-31f9-4177-ae72-57a62685c422",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "264237eb-e6e1-4343-a1f8-49447dac8604",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "fc43b1dc-c1b0-47b2-a390-598cd1912a1b",
+                            "frames": [
+                                {
+                                    "id": "ce47b3c7-1261-4988-9f54-ee43fc412980",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "43eb4658-8a3d-4f92-97a1-962c3390f113",
+                            "frames": [
+                                {
+                                    "id": "3021da1c-3f35-4b87-9cb2-d5c7ab447193",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "148fbc38-3618-4c8a-ba54-f6c05ae3668d",
+                            "frames": [
+                                {
+                                    "id": "7376296d-7721-4ef9-b97f-10d27a1326f3",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "786be886-9c86-4cff-9a28-e9215ed50daf",
+                            "frames": [
+                                {
+                                    "id": "581b1880-c60c-49d2-9e8e-8b83db08113e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "98781e32-a5f0-4035-a7e0-432903a7a2fc",
+                            "frames": [
+                                {
+                                    "id": "836f0b76-95a1-40bf-ace9-4c82c6b6fe30",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f55f510b-f6f9-4b74-a346-5ce7ea9028ce",
+                            "frames": [
+                                {
+                                    "id": "48e64408-e084-4000-8cb6-bbe3275cab8c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3b765abb-d576-43f8-aa63-27aae5396f50",
+                            "frames": [
+                                {
+                                    "id": "b83fd196-2c3e-4a42-8192-5896ea335ecd",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -7326,6 +7476,11 @@
     ],
     "variables": [
         {
+            "id": "0",
+            "name": "LoadSave?",
+            "symbol": "var_loadsave_"
+        },
+        {
             "id": "68ea6490-5374-4eaa-a067-740f7ea92192__L0",
             "name": "Answer",
             "symbol": "var_answer"
@@ -7339,11 +7494,6 @@
             "id": "68ea6490-5374-4eaa-a067-740f7ea92192__L1",
             "name": "Answer",
             "symbol": "var_answer_0"
-        },
-        {
-            "id": "0",
-            "name": "LoadSave?",
-            "symbol": "var_loadsave_"
         }
     ],
     "engineFieldValues": [
@@ -7361,6 +7511,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": "all",
+        "showCollisionSlopeTiles": false,
+        "showCollisionExtraTiles": false,
         "worldScrollX": 2878,
         "worldScrollY": 2791,
         "zoom": 400,
@@ -7391,9 +7543,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            292,
+            333,
             30,
-            300
+            343
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
